@@ -46,7 +46,7 @@ public class BaseDao {
     }
 
     //编写查询公共类
-    public static ResultSet execute(Connection connection, PreparedStatement preparedStatement, String sql, Object[] params, ResultSet resultSet) throws SQLException {
+    public static ResultSet execute(Connection connection, PreparedStatement preparedStatement, ResultSet resultSet, String sql, Object[] params) throws SQLException {
         //预编译的sql可直接在后面执行
         preparedStatement = connection.prepareStatement(sql);
         for(int i = 0; i < params.length; i++){
