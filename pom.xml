@@ -10,6 +10,13 @@
   <packaging>war</packaging>
 
   <dependencies>
+    <!--Junit单元测试-->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13</version>
+      <scope>test</scope>
+    </dependency>
     <!--Servlet依赖-->
     <dependency>
       <groupId>javax.servlet</groupId>
@@ -39,6 +46,12 @@
       <groupId>taglibs</groupId>
       <artifactId>standard</artifactId>
       <version>1.1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>compile</scope>
     </dependency>
   </dependencies>
 
