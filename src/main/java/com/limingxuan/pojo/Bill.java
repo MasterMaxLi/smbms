@@ -23,7 +23,6 @@ public class Bill {
     private Integer modifyBy;   //更新者
     private Date modifyDate;    //更新时间
 
-
     private String providerName;    //供应商名称
 
     public Integer getId() {
