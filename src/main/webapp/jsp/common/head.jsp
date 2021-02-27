@@ -33,7 +33,7 @@
               <li><a href="${pageContext.request.contextPath}/provider/providerlist">供应商管理</a></li>
               <li><a href="${pageContext.request.contextPath}/user/userlist">用户管理</a></li>
               <li><a href="${pageContext.request.contextPath}/user/pwdModify">密码修改</a></li>
-              <li><a href="javascript:if(confirm('您真的要退出吗？')){location.href='${pageContext.request.contextPath}/user/logout'}">退出系统</a></li>
+              <li><a href="javascript:if(confirm('您真的要退出吗？')){location.href='${pageContext.request.contextPath}/login.jsp'}">退出系统</a></li>
              </ul>
          </nav>
      </div>
