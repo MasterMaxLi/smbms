@@ -6,9 +6,16 @@
     <title>系统登录 --聚旺福超市订单管理系统</title>
     <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css" />
 
-    <!--<script type="text/javascript" src=js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="js/jquery.cookie.js"></script>
-    <script type="text/javascript">
+    <script>
+        $(function (){
+            $("#loginBtn").click(function (){
+                $("#actionForm").submit();
+            })
+        })
+    </script>
+    <!--<script type="text/javascript">
     	$(function(){
     		$("#login").click(function(){
     			var userCode = $("#userCode").val();
@@ -60,7 +67,7 @@
                     </select>
                 </div>--%>
 				<div class="subBtn">
-                    <input type="submit" value="登录"/>
+                    <input type="button" id="loginBtn" value="登录"/>
                     <input type="reset" value="重置"/>
                 </div>	
 			</form>
