@@ -15,6 +15,16 @@
     <servlet-name>LoginServlet</servlet-name>
     <url-pattern>/login.do</url-pattern>
   </servlet-mapping>
+  
+  <!--退出登录功能-->
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.limingxuan.servlet.user.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/jsp/logout.do</url-pattern>
+  </servlet-mapping>
 
   <!--字符编码过滤器-->
   <filter>
